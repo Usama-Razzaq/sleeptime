@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #001F3F;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+html,body{
+    font-size: 10px;
+}
+#header img{
+    margin-left: 3rem;
+}
+#header p{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #7FDBFF;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+
+}
+.all-buttons{
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid white;
+    background-color: #001F3F;
+    border-radius: 0.5rem;
+    
+}
+.all-buttons select{
+    background-color: #001F3F;
+    color: #7FDBFF;
+    border: none;
+    padding: 0 5.8rem 0 0;
+    
+    
+}
+
+.all-buttons select option{
+    text-align: left;
+    padding: ;
+}
+.calculate{
+    width: 7%;
+    margin: 3.5rem auto;
+    /* border: 1px solid white; */
+    /* padding-left: 44px; */
+    
+}
+.calculate button{
+    padding:  1rem 3.3rem;
+    border-radius: 3.8rem;
+
+}
+/* .zzz{
+    margin-left: 1rem;
+} */
+.calculate button:hover{
+    background-color: #CCCBCA;
+}
+
+#featured{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+#featured h1{
+    font-size: 2rem;
+    margin: 3.5rem 0;
+    color: #7FDBFF;
+}
+#featured img{
+    margin-bottom: 10rem;
+}
+#featured p{
+    font-size: 1.5rem;
+    color: #7FDBFF;
+}
+#main{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+#main .section-headings{
+    font-size: 3rem;
+    margin: 3.5rem 0;
+    letter-spacing: 0.2rem;
+    color: #7FDBFF;
+}
+#main .section-para{
+    font-size: 1.5rem;
+    color: #7FDBFF;
+}
+footer{
+    width: 80%;
+    margin: auto;
+    color: #7FDBFF;
+    text-align: center;
+}
+footer h1{
+    font-size: 1.5rem;
+    margin: 3rem 0;
+}
+footer ul{
+    font-size:1.5rem;
+    line-height: 1.5;
+}
+footer .links{
+    margin: 1rem 0;
+}
+footer .links p{
+padding: 20px;
+}
+footer .links p a{
+    padding: 10px 0;
+    color: white;
+}
